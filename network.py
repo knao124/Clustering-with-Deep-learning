@@ -453,8 +453,7 @@ class NetworkBuilder(object):
         return network_description
         
     def getInitializationFct(self):
-		
-		return lasagne.init.GlorotUniform()
+        return lasagne.init.GlorotUniform()
 
     def processLayer(self, network, layer_definition):
         '''
